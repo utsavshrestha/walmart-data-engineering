@@ -1,1 +1,9 @@
 .env
+
+# Python venv
+walmart/
+
+# dbt
+target/
+logs/
+dbt_packages/
