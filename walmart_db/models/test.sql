@@ -1,1 +1,1 @@
-select * from walmart.bronze.customers;
+select * from {{ source("walmart", "raw_customers") }};

@@ -1,0 +1,23 @@
+sources:
+  - name: walmart
+    database: walmart
+    schema: bronze
+    tables:
+      - name: raw_customers
+        description: "Raw customers data"
+        identifier: customers
+      - name: raw_products
+        description: "Raw products data"
+        identifier: products
+      - name: raw_orders
+        description: "Raw orders data"
+        identifier: orders
+      - name: raw_order_items
+        description: "Raw order items data"
+        identifier: order_items
+      - name: raw_payments
+        description: "Raw payments data"
+        identifier: payments
+      - name: raw_stores
+        description: "Raw stores data"
+        identifier: stores
