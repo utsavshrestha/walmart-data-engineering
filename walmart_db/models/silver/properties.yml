@@ -1,0 +1,13 @@
+models:
+  - name: transform_orders
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_id
+        data_tests:
+          - not_null
+      - name: total_amount
+        data_tests:
+          - not_null
