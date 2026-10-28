@@ -70,6 +70,22 @@
             """,
             "alias": "s",
             "join_condition": "o.store_id = s.store_id",    
+        },
+        {
+            "table": source("walmart", "raw_employees"),
+            "columns": """
+                e.employee_id,
+                e.first_name as employee_first_name,
+                e.last_name as employee_last_name,
+                e.email as employee_email,
+                e.job_title as employee_job_title,
+                e.salary as employee_salary,
+                e.created_timestamp as employee_created_timestamp,
+                e.updated_timestamp as employee_updated_timestamp
+            """,
+            "alias": "e",
+            "join_condition": "s.store_id = e.store_id",
+
         }
     ]
 %}

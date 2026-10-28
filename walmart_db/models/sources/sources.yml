@@ -21,3 +21,6 @@ sources:
       - name: raw_stores
         description: "Raw stores data"
         identifier: stores
+      - name: raw_employees
+        description: "Raw employee data"
+        identifier: employees
