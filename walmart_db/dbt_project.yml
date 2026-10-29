@@ -25,5 +25,10 @@ models:
       +materialized: table
     silver:
       +schema: silver
+    gold:
+      +schema: gold
+      +materalized: table
+      ephemeral:
+        +materialized: ephemeral
 flags:
   require_generic_test_arguments_property: true
