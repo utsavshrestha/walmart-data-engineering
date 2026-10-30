@@ -4,6 +4,7 @@ select
     employee_last_name,
     employee_job_title,
     employee_salary,
-    employee_created_timestamp
+    employee_created_timestamp,
+    employee_updated_timestamp
 from 
 {{ ref('metadata_driven_ingestion') }}
