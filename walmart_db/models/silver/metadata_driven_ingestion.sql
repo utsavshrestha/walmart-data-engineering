@@ -7,6 +7,7 @@
                 o.order_timestamp,
                 o.order_status,
                 o.total_amount,
+                o.payment_method,
                 o.created_timestamp as order_created_timestamp,
                 o.updated_timestamp as order_updated_timestamp
             """,

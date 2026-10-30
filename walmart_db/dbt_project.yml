@@ -27,7 +27,7 @@ models:
       +schema: silver
     gold:
       +schema: gold
-      +materalized: table
+      +materialized: table
       ephemeral:
         +materialized: ephemeral
 flags:

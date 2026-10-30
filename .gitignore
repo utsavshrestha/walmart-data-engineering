@@ -7,3 +7,4 @@ walmart/
 target/
 logs/
 dbt_packages/
+config.json
