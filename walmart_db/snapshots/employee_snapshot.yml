@@ -1,0 +1,10 @@
+snapshots:
+    - name: "dim_employees"
+      relation: ref('eph_employee')
+      config:
+        schema: gold
+        database: walmart
+        unique_key: employee_id
+        strategy: timestamp
+        updated_at: employee_updated_timestamp
+        

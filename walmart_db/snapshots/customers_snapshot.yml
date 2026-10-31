@@ -1,0 +1,14 @@
+snapshots:
+   - name: dim_customers
+     relation: ref("eph_customers")
+     config:
+        schema: gold
+        database: walmart
+        unique_key: customer_id
+        strategy: timestamp
+        updated_at: customer_updated_timestamp
+        
+        
+
+
+      
