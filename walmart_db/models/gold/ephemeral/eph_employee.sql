@@ -1,4 +1,5 @@
 select
+    distinct
     employee_id,
     employee_first_name,
     employee_last_name,
